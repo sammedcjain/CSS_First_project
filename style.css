@@ -56,11 +56,18 @@ font-family: 'Merriweather', serif;
   width:550px;
   height:350px;
   display: block;
-  align-self: center;
-  position: absolute;
-  left:29em;
-  top:390px;
-  align-self: center;
+  margin:auto;
+  padding-top:26%;
+}
+@media (max-width:1460px)
+{
+  .mountain{
+    width:500px;
+    height:280px;
+    display: block;
+    margin:auto;
+    padding-top:48%;
+  }
 }
 
 .top{
